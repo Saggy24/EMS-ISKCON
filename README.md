@@ -26,7 +26,7 @@ Full-stack application with React frontend, Node.js backend, and PostgreSQL data
 1. Clone repository:
 ```bash
 https://github.com/Saggy24/EMS-ISKCON.git
-cd Event Management System Task - CRUD
+cd EMS-ISKCON
 ---------------------------------------------------------------------------------------
 ## Database Setup
 
