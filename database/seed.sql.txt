@@ -1,0 +1,16 @@
+-- Insert sample locations
+INSERT INTO locations (name, address, capacity) VALUES
+('Convention Center', '123 Main St, New York', 1000),
+('Community Hall', '456 Oak Ave, Los Angeles', 500),
+('Tech Hub', '789 Innovation Dr, San Francisco', 300);
+
+-- Insert sample users (passwords are bcrypt hashed 'password123')
+INSERT INTO users (name, email, password, role) VALUES
+('Admin User', 'admin@example.com', '$2b$10$G9R1OuP2n2C9A6d0U6TzL.Q9Dc2Rw5o5v5Z6Z8Y4c5l1e2V3v4b5n6', 'admin'),
+('Regular User', 'user@example.com', '$2b$10$G9R1OuP2n2C9A6d0U6TzL.Q9Dc2Rw5o5v5Z6Z8Y4c5l1e2V3v4b5n6', 'user');
+
+-- Insert sample events
+INSERT INTO events (title, description, date, category, location_id, created_by) VALUES
+('Tech Conference', 'Annual technology conference', '2024-07-15 09:00:00', 'Conference', 1, 1),
+('Art Exhibition', 'Local artists showcase', '2024-08-20 10:00:00', 'Exhibition', 2, 1),
+('Startup Pitch', 'New startup pitch event', '2024-09-05 14:00:00', 'Business', 3, 1);
